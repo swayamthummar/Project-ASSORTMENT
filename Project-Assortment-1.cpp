@@ -7,15 +7,16 @@ main()
 	
 	for(i=0;i<n;i++)
 	{
-		printf("a[%d]->",i);
-		scanf("%d",&a[i]);
+	   printf("a[%d]->",i);
+	   scanf("%d",&a[i]);
 	}
 	printf("The negative numbers->");
+	
 	for(i=0;i<n;i++)
 	{
-		if(i>a[i])
-		{
-			printf("%d",a[i]);
-		}
+	   if(i>a[i])
+	   {
+		printf("%d",a[i]);
+	   }
 	}
 }
