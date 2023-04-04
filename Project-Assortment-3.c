@@ -8,7 +8,7 @@ main()
 	
 	for(i=0;i<length;i++)
 	{
-		printf("%d  ",a[i]);
+		printf("%d \n",a[i]);
 	}
 	for(i=0;i<n;i++)
 	{
@@ -20,11 +20,10 @@ main()
 	   }
 		a[0]=l;
 	}
-	printf("\n");
 	printf("Right Rotation of Array->\n");
 	
 	for(i=0;i<length;i++)
 	{
-		printf("%d  ",a[i]);
+		printf("%d \n",a[i]);
 	}
 }
